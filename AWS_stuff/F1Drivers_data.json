@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lewis Hamilton",
+    "teamName": "Mercedes AMG Petronas Formula One Team",
+    "driverPosition": 1
+  },
+  {
+    "name": "Valtteri Bottas",
+    "teamName": "Mercedes AMG Petronas Formula One Team",
+    "driverPosition": 2
+  },
+  {
+    "name": "Sebastian Vettel",
+    "teamName": "Scuderia Ferrari",
+    "driverPosition": 1
+  },
+  {
+    "name": "Charles Leclerc",
+    "teamName": "Scuderia Ferrari",
+    "driverPosition": 2
+  },
+  {
+    "name": "Max Verstappen",
+    "teamName": "Aston Martin Red Bull Racing",
+    "driverPosition": 1 
+  },
+  {
+    "name": "Alex Albon",
+    "teamName": "Aston Martin Red Bull Racing",
+    "driverPosition": 2
+  } 
+]
