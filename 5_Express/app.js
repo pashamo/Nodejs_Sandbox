@@ -9,12 +9,16 @@ app.use ('/', (req, res, next) => {
     next();
 })
 
+app.set('view engine', 'ejs');
+
 app.get('/', (req, res) => {
-    res.send('<html><head><link href=assets/style.css type=text/css rel=stylesheet /></head><body><h1>Hello World!</h1></body></html>');
+    // res.send('<html><head><link href=assets/style.css type=text/css rel=stylesheet /></head><body><h1>Hello World!</h1></body></html>');
+    res.render('index'); //using view engine
 });
 
 app.get('/person/:id', (req, res) => {
-    res.send('<html><head></head><body><h1>Hello '+ req.params.id +'!</h1></body></html>');
+    // res.send('<html><head></head><body><h1>Hello '+ req.params.id +'!</h1></body></html>');
+    res.render('person', { ID: req.params.id }); //using view engine
 });
 
 app.get('/api', (req, res) => {
