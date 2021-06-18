@@ -4,8 +4,9 @@ const htmlController = require('./controllers/htmlController');
 let mongoose = require('mongoose');
 let app = express();
 let port = process.env.PORT || 4000;
+let mongoURL = config.URL || 'test';
 
-mongoose.connect('mongodb+srv://m001-student:test@sandbox.9kquy.mongodb.net/addressbook');
+mongoose.connect(mongoURL);
 
 let Schema = mongoose.Schema;
 
