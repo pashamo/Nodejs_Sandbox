@@ -4,17 +4,5 @@ angular.module('MeanApp')
     .controller('MainController', ctrlFunc);
 
 function ctrlFunc() {
-    this.message = 'Hello';
-
-    this.people = [
-        {
-            name: 'John Doe'
-        },
-        {
-            name: 'Jane Doe'
-        },
-        {
-            name: 'Jene Doe'
-        }
-    ]
+    this.people = clientPeople
 }
